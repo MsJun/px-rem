@@ -1,8 +1,11 @@
-<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-
-
-
-window.addEventListener(('orientationchange' in window ? 'orientationchange' : 'resize'), (function() {//判断是屏幕旋转还是resize
+  # px转rem
+px转rem
+    
+    
+    
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"> <!--先加入meta标签-->
+    
+    window.addEventListener(('orientationchange' in window ? 'orientationchange' : 'resize'), (function() {//判断是屏幕旋转还是resize
         function c() {
             var d = document.documentElement;//获取html元素
             var cw = d.clientWidth || 750;
